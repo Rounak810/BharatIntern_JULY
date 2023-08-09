@@ -1,0 +1,504 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@600&family=Poppins:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Belanosima', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+.wrapper{
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.navbar{
+    height: 100vh;
+    width: 100%;
+    background-image: url(bg.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.logo{
+    padding-left: 20px;
+    cursor: pointer;
+    color: crimson;
+    font-size: 34px;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 50px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-family: bold;
+    text-transform: capitalize;
+    font-family: 'Belanosima', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-size: 23px;
+}
+
+nav ul li a:hover{
+    color: crimson;
+    transition: 0.24s;
+    cursor: pointer;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+h1{
+    color: crimson;
+}
+
+h3{
+    color: white;
+}
+.role{
+    color:crimson;
+    font-weight: 800;
+    
+}
+h1 h3{
+    
+    margin: 0 auto;
+    margin-top: 13rem;
+    width: 311px;
+}
+#pic{
+    margin: 0 auto;
+    margin-top: 13em;
+    width: 311px;
+    border-radius: 50%;
+}
+
+#hire{
+    margin-top: 1%;
+    height: 47px;
+    width: 15%;
+    background-color:transparent ;
+    border-color :crimson;
+    color: white;
+    cursor: pointer;
+}
+
+/* About Section */
+
+.about{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 4%;
+}
+#long-pic{
+    width: 17rem;
+    border: 2px solid red;
+}
+
+#greet{
+    font-size: 2em;
+    font-style:bold ;
+    font-weight: 300;
+}
+.hero{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 3rem;
+    text-align: justify;
+    width: 97%;
+}
+#para{
+    border: 2px solid green;
+    width: 10%;
+}
+table{
+    padding-top: 5%;
+}
+th,td{
+   text-align: left;
+   /* border: 2px solid blue; */
+}
+td{
+    padding-left: 10%;
+}
+
+.heading-abt{
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    font-size: 3rem;
+    color: crimson;
+}
+
+.btn{
+    /* border: 2px solid pink; */
+    margin-top: 3%;
+    height: 15%;
+}
+
+#down{
+    width: 9rem;
+    height: 2rem;
+    background-color:crimson;
+    border: none;
+    color:white;
+    cursor: pointer;
+}
+
+#trans{
+    width: 8rem;
+    height: 2rem;
+    border:1px solid crimson;
+    background-color: #fff;
+    color: crimson;
+    cursor: pointer;
+}
+
+/* Skills Section */
+    .skills{
+        margin: 2%;
+        width: 92%;
+        padding: 100px 0;
+        /* background: lightgray; */
+    }
+
+    #skl-heading{
+        color: black;
+    }
+
+    .content1{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        text-align: justify;
+        gap: 6%;
+    }
+
+    .left{
+        width: 41%;
+    }
+
+    .left h1{
+        text-align: left;
+        font-size: 30px;
+    }
+
+    .left p{
+        font-size: 18px;
+        margin: 25px 0;
+    }
+
+    .left a{
+        background-color: crimson;
+        color: white;
+        padding: 8px 16px;
+        border: 2px solid crimson;
+        border-radius: 6px;
+        transition: all 0.3s ease;
+        text-decoration: none;
+        font-size: 19px;
+        font-weight:500 ;
+    }
+
+    .left a:hover{
+        background-color: transparent;
+        color: crimson;
+    }
+
+    .right{
+        flex: 1;
+        margin-left: 0%;
+    }
+
+    .right .line{
+        margin-bottom: 15px;
+    }
+    .right .info{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .right .bars{
+        background-color: lightgray;
+        height: 5px;
+        width: 100%;
+        position: relative;
+    }
+
+    .right .bars::before{
+        content: '';
+        position: absolute;
+        height: 100%;
+        background-color: crimson;
+    }
+
+    .right .html::before{
+        width: 90%;
+    }
+
+    .right .css::before{
+        width: 50%;
+    }
+
+    .right .php::before{
+        width: 64%;
+    }
+
+    .right .js::before{
+        width: 20%;
+    }
+
+  
+
+    .right .info span{
+        font-weight: 500;
+        font-size: 19px;
+    }
+
+
+    
+
+  /* project section */
+
+  .project-section{
+    width: 100%;
+    background-color: white;
+  }
+
+  .project-section h1{
+    font-size: 35px;
+    margin: 3%;
+    color: black;
+  }
+
+
+  .project-section h1{
+    text-align: center;
+  }
+.project-card h3{
+    color: black;
+    padding: 10px 0px;
+    
+}
+
+.project-card p{
+    padding: 13px;
+    font-size: 14px;
+    
+}
+.container{
+    /* width: 1170px; */
+    width: 90%;
+    /* max-width: 10%; */
+    margin: auto;
+    /* border: 1px solid red; */
+    /* display: flex;
+    flex-wrap: wrap;
+    flex-direction: row; */
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 31% 31% 31%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+  
+.project-card img{
+    width: 40%;
+}
+  .project-card{
+    flex-basis: 23%;  
+    margin: 10px 0px;
+    padding: 20px 0px;
+    background: white;
+    box-shadow: 0px 0px 10px 3px lightgray;
+    text-align: center;
+    cursor: pointer;
+    /* width: 100%; */
+  }
+
+  .project-card:hover{
+    background: crimson;
+    transition:  0.5s;
+  }
+
+  .project-card:hover h3,.project-card:hover p{
+    color: white;
+  }
+
+
+/* Experince section */
+
+.experience-section{
+    width: 100%;
+    background:  rgb(231, 231, 231);
+    text-align: center;
+}
+.experience-section h1{
+    font-size: 40px;
+    padding-top: 3%;
+    margin: 5%;
+    color: black;
+}
+.e-card img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.e-card{
+    width: 24%;
+    position: relative;
+    margin-bottom: 20px;
+    cursor: pointer;
+    /* border: 2px solid green; */
+}
+.e-container{
+    width: 1170px;
+    display: flex;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    padding-top: -1rem;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* border: 2px solid red; */
+}
+
+.overlay{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(228, 8, 8, 0.884);
+    color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+    z-index: 1;
+}
+
+.overlay:hover{
+    opacity: 1;
+}
+/* form Section */
+
+  .container3{
+    width: 1059px;
+    margin: 0 auto;
+  }
+
+  .contactus-form-container{
+    width: 100%;
+    /* background-color: rgb(231, 231, 231); */
+  }
+
+  .contactus-heading{
+    font-size: 3em;
+    color:crimson;
+    text-align: left;
+  }
+
+  .contactus-sub-heading{
+    font-size: 2rem;
+    color: #343d68aa;
+    text-transform: capitalize;
+  }
+
+  /* .contactus-heading,.contactus-sub-heading{
+    display: flex;
+    flex-direction: column;
+  } */
+
+  .contactus-form-container{
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    
+  }
+
+  form{
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    width: 70%;
+    margin:2rem 5rem;
+  }
+
+  .formfield-container{
+    width: 100%;
+  }
+
+  .formfield{
+    width: 100%;
+    height: 42px;
+    padding: 0 2rem;
+    font-size: 18px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px #1f1f1f;
+    font-weight: 500;
+    border: none;
+    margin: 17px;
+  }
+
+  .formfield-textarea{
+    height: auto;
+    padding-top: 1rem;
+  }
+
+  .cont-btn{
+    width: 30%;
+    height:32px;
+    font-size: 16px;
+    box-shadow: 0px 0px 5px #1f1f1f;
+    font-weight: 500;
+    border: none;
+    background-color: crimson;
+    color: #fff;
+    margin-left: 15px;
+  }
+
+  /* foooter section */
+  footer{
+    background: black;
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+  }
+
+  #footer-content{
+    color: white;
+  }
+
+  .footer-socials img{
+    /* border:2px solid white; */
+    width: 5%;
+  }
+
+
+
+#zaba{
+    background-color: white;
+}

@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rounak's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+
+        <!-- Navigation bar -->
+       <div class="navbar">
+        <nav>
+            <h2 class="logo">Portfolio</h2>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#abt">About</a></li>
+                <li><a href="#prjt">Projects</a></li>
+                <li><a href="#skl">Skills</a></li>
+                <li><a href="#exp">Experiences</a></li>
+                <li><a href="#ct">Contact</a></li>
+            </ul>
+        </nav>
+
+        <!-- Hero Section inside navigation section-->
+        <div class="content">
+            <img src="picsh.jpeg" alt="My Picture" id="pic">
+            <h1>Rounak Ghosh</h1>
+            <h3>I'm a <span class="role"></span></h3>
+            <button id="hire"><a href="#ct" style="color: #ffffff; text-decoration: none; font-size: 20px;">Hire me!</a> </button>
+        </div>    
+
+    </div>
+
+
+    <!-- About Section -->
+    <section class="about" id="abt">
+        <h2 class="heading-abt">ABOUT ME</h2>
+        <div class="hero">
+            <img src="pic.jpeg" id="long-pic" alt="">
+            <div class="para">
+                <span id="greet">Hello I'm Rounak</span>
+                <p>Passionate web developer with strong programming skills, ready to create innovative and dynamic web solutions. 
+                    Seeking exciting opportunities to contribute my expertise and drive impactful projects forward. Let's connect and explore how I can add value to your team!
+                    As a dedicated learner, I stay up-to-date with the latest industry trends and best practices to deliver cutting-edge solutions. Let's collaborate to build exceptional web experiences that
+                     leave a lasting impression on users and drive business growth
+                </p>
+                <table id="card">
+                    <tr>
+                        <th>Name:</th>
+                        <td>Rounak Ghosh</td>
+                    </tr>
+                    <tr>
+                        <th>Address:</th>
+                        <td>Bhilai</td>
+                    </tr>
+                    <tr>
+                        <th>Age:</th>
+                        <td>20</td>
+                    </tr>
+                    <tr>
+                        <th>Email:</th>
+                        <td>srounak790@gmail.com</td>
+                    </tr>
+                </table>
+                <div class="btn">
+                    <button id="down">Download CV</button>
+                    <a href="#ct"><button id="trans">Send a Message</button></a>
+                </div>
+                
+            </div>
+                
+        </div>
+    </section>
+    <!-- Skills Section -->
+    <section class="skills" id="skl">
+        <!-- <h1>My Skills</h1> -->
+        <div class="content1">
+            <div class="left">
+                <h1 id="skl-heading">My Skills</h1>
+                <p>Skilled in DSA, Web Development, and Android App 
+                    Development, I code proficiently in Python, Java, 
+                    and master front-end technologies such as HTML/CSS/JavaScript.
+                     My passion lies in crafting robust and user-centric solutions that cater to diverse needs, 
+                    delivering exceptional experiences
+                     for users across platforms.</p>
+            </div>
+
+            <div class="right">
+                <div class="line">
+                    <div class="info">
+                        <span>Programming</span>
+                        <span>90%</span>
+                    </div>
+                    <div class="bars html"></div>
+                </div>
+
+                <div class="line">
+                    <div class="info">
+                        <span>Data Structures & Algorithms</span>
+                        <span>50%</span>
+                    </div>
+                    <div class="bars css"></div>
+                </div>
+
+                <div class="line">
+                    <div class="info">
+                        <span>Web Developement</span>
+                        <span>64%</span>
+                    </div>
+                    <div class="bars php"></div>
+                </div>
+
+                <div class="line">
+                    <div class="info">
+                        <span>Android Development</span>
+                        <span>20%</span>
+                    </div>
+                    <div class="bars js"></div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Section -->
+
+    <section class="project-section" id="prjt">
+        <h1>My Projects</h1>
+
+        <div class="container">
+
+            <div class="project-card">
+
+                <img src="webdev.png" alt="" onclick="tc()">
+                <h3>Temperature Convertor</h3>
+                <p>Converts Celcius to Farenheit and Farenheit to Celcius with amazing 
+                    UI and Neon Text </p>
+                
+            </div>
+
+            <div class="project-card">
+
+                <img src="webdev.png" alt="" onclick="lp()">
+                <h3>Landing Page</h3>
+                <p>An amazing landing page for a Travel Booking Website
+                    with Parellax effect in it.
+                </p>
+                
+            </div>
+
+            <div class="project-card">
+
+                <img src="webdev.png" alt="" onclick="zc()">
+                <h3>Zomato Clone</h3>
+                <p>A clone of world's leading Food deleivery company
+                    Zomato with Amazing UI
+                </p>
+                
+            </div>
+
+            <div class="project-card">
+
+                <img src="webdev.png" alt="td()" onclick="td()">
+                <h3>To-Do list</h3>
+                <p>A clone of world's leading Food deleivery company
+                    Zomato with Amazing UI
+                </p>
+                
+            </div>
+
+            <div class="project-card">
+
+                <img src="java.png" alt="">
+                <h3>Bank</h3>
+                <p>A GUI Bank Project made completly with Java Programming language
+                    with Database Connectivity using MySQL Database.
+                </p>
+                
+            </div>
+
+            <div class="project-card">
+
+                <img src="Python.png" alt="" onclick="rest()">
+                <h3>Restaurent Billing System</h3>
+                <p>A GUI applicaton purely made with Python
+                    programming language  with SMS API embedded to sent the 
+                    generated bill directly into Coustomer's Mobile number.
+                </p>
+                
+            </div>
+
+
+        </div>
+        
+    </section>
+
+    <!-- Experience Section -->
+    <section class="experience-section" id="exp">
+        <h1>My Experiences</h1>
+
+        <div class="e-container">
+
+            <div class="e-card" onclick="">
+                <div class="overlay">
+                    <p>Web Developement Intern</p>
+                </div>
+
+                <img src="bharat.jpg" alt="">   
+            </div>
+
+            <div class="e-card" onclick="octa()">
+                <div class="overlay">
+                    <p>Web Developement Intern</p>
+                </div>
+
+                <img src="octa.jpg" alt="">   
+            </div>
+
+            <div class="e-card">
+                <div class="overlay">
+                    <p>Android Developer Intern</p>
+                </div>
+
+                <img src="zaba.png" alt="" id="zaba">   
+            </div>
+
+            <div class="e-card" onclick="sail()">
+                <div class="overlay">
+                    <p>Trainee</p>
+                </div>
+
+                <img src="sail.jpg" alt="">   
+            </div>
+        </div>
+    </section>
+
+    <!-- Form Section -->
+    <div class="contactus-form-container" id="ct">
+        
+          <div class="container3">
+            <h1 class="contactus-heading">Contact me</h1>
+            <h3 class="contactus-sub-heading">
+                Questions, thoughts, or just want to say hello?
+            </h3>
+
+            <div class="contactus-form-container">
+                <form action="">
+                    <div class="formfield-container">
+                        <input class="formfield"
+                        type="text"
+                        name="name"
+                        id=""
+                        placeholder="Enter your name"/>
+
+                        <input class="formfield"
+                        type="email"
+                        name="email"
+                        id=""
+                        placeholder="Enter your email Address"/>
+
+                        <input class="formfield"
+                        type="text"
+                        name="subject"
+                        id=""
+                        placeholder="Enter your subject"/>
+
+                        <textarea name="message"
+                         id="" cols="30" rows="10"
+                        class="formfield formfield-textarea"
+                        placeholder="Enter your message"></textarea>
+
+                        
+                    </div>
+                    <button class="cont-btn">
+                        Send Message
+                        <i class="fa-solid fa-paper-plane" style="color: #ffffff;"></i>
+                    </button>
+                </form>
+            </div>
+          </div>
+
+    </div>
+    <!-- footer section -->
+    <footer>
+        <div class="footer-socials">
+            <img src="linklogo.png" alt="">
+            <img src="gitlogo.png" alt="">
+        </div>
+        <span id="footer-content">Copyright 2023 Rounak Ghosh All Right Reserved</span>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/5b4bccf1ed.js" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://kit.fontawesome.com/58a810656.js" crossorigin="anonymous"></script>
+    <script>
+        
+        var typeData=new Typed(".role",{
+            strings:[
+                "Software Developer",
+                "Web Developer",
+                "Android Developer",
+                "Coder",
+            ],
+            loop: true,
+            typeSpeed: 100,
+            backSpeed:80,
+            backDelay:1000,
+        });
+
+        function sail() {
+            window.location.href = "https://drive.google.com/file/d/12OQBi0QuFk8E2DXcHP0K1Q7R3FHJEzPn/view?usp=sharing";
+        }
+
+        function lp(){
+            window.location.href="https://sprightly-hamster-886c84.netlify.app";
+        }
+
+        function tc(){
+            window.location.href="https://verdant-semifreddo-618069.netlify.app";
+        }
+
+        function zc(){
+            window.location.href="https://hilarious-rabanadas-9b7324.netlify.app";
+        }
+
+        function td(){
+            window.location.href="https://delicate-treacle-fb6729.netlify.app";
+        }
+
+        function rest(){
+            window.location.href="https://github.com/Rounak810/Restaurant-Billing-System"
+        }
+
+        function octa(){
+            window.location.href="https://certificate.givemycertificate.com/c/5171b420-c68b-4813-bc98-828e817c9401"
+        }
+    </script>
+    
+</body>
+</html>
